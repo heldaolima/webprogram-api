@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor01: #99B898 ;
+    --cor02: #FECEAB ;
+    --cor03: #FF847C ;
+    --cor04: #E84A5F;
+    --cor05: #2A363B; 
+}
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+h1,h2,h3,h4 {
+    font-family: Quicksand;
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+    background-color: var(--cor05);
+    color:white;
+    margin-bottom: 5px;
+    text-shadow: 0px 1px black;
+    box-shadow: 0px 3px 8px black;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: large;
+    margin:auto;
+    background-color: var(--cor02);
+}
+
+main {
+    border-radius: 0.5em;
+    background-color: white;
+    margin: 1em;
+    padding: 2em;
+    max-width: 1200px;
+    min-width: 300px;
+    min-height: 300px;
+    margin: auto;
+}
+
+main > p {
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5em;
+}
+
+main > h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+main > h4 {
+/*    text-decoration: underline; */
+    border-bottom: 1px solid rgb(199, 198, 198);
+
+}
+
+footer {
+    background-color: var(--cor01);
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:1em;
+}
+
+#pseudo-nav {
+    margin: 0.8em;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    height: 2em;
+    margin-bottom: 1em;;
+}
+
+.link_bt {
+    text-decoration: none;
+    color:white;
+    background-color: var(--cor04);
+    border-radius: 0.1em;
+    padding: 0.4em;
+    text-align: center;
+    max-width: 100px;
+    margin-right: 50px;
+    transition: background-color .5s;
+    
+}
+
+.link_bt:hover {
+    background-color: var(--cor01);
+    color: white;
+}
+
+
+#menu_ini {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
