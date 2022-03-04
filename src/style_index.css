@@ -64,12 +64,31 @@ main > h4 {
 
 }
 
+form {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    font-family: Quicksand;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--cor05);
+    border-radius: 10px;
+    background-color: #feceab42;
+}
+
 footer {
     background-color: var(--cor01);
     color:white;
     text-align:center;
     padding:10px;
     margin-top:1em;
+}
+
+footer > a {
+    color:white;
+    text-decoration: bold;
 }
 
 #pseudo-nav {
@@ -95,13 +114,29 @@ footer {
 }
 
 .link_bt:hover {
-    background-color: var(--cor01);
+    background-color: var(--cor05);
     color: white;
 }
-
 
 #menu_ini {
     display: flex;
     justify-content: center;
     margin:auto;
+}
+
+.butao {
+    background-color: var(--cor04);
+    font-size: large;
+    color: white;
+    border-radius: 0.1em;
+    padding: 0.4em;
+    text-align: center;
+    transition: background-color .5s;
+    margin: 1em;
+    margin-bottom: 1.5em;
+}
+
+.butao:hover {
+    background-color: var(--cor05);
+    color: white;
 }
