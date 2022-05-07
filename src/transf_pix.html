@@ -14,18 +14,18 @@
     </header>
     <main>
         <h3>Preencha com os dados</h3>
-        <form action="">
+        <form action="http://localhost:8080/transferencia/pix" class="formPost">
             <label for="pix_rem">Pix remetente</label><br>
-            <input type="text" name="pix_rem" id="pix_rem" placeholder="Ex: 12345"><br>
+            <input type="text" name="pix_remetente" id="pix_rem" placeholder="Ex: 12345"><br>
             <label for="valor_pix">Valor</label><br>
-            <input type="number" name="valor_pix" id="valor_pix" placeholder="R$"><br>
+            <input type="number" name="quantia" id="valor_pix" placeholder="R$"><br>
             <label for="pix_dest">Pix destinatário</label><br>
-            <input type="text" name="pix_dest" id="pix_dest" placeholder="Ex: 12345"><br>
+            <input type="text" name="pix_destinatario" id="pix_dest" placeholder="Ex: 12345"><br>
             <button class="butao">Enviar</button>
         </form>
         <a href="index.html" class="link_bt" id="menu_ini">Menu Inicial</a>
     </main>
     <footer>Site criado por <strong>Heldão Lima</strong></footer>
-
+    <script src="resources/main.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
     <main>
         <h3>Insira os dados para a adição de um novo cliente</h3>
         <!-- <form action="" id="formCliente"> -->
-        <form action="http://localhost:8080/registrar" id="formCliente" >
+        <form action="http://localhost:8080/registrar" class="formPost" >
             <label for="name">Nome completo: </label><br>
             <input type="text" id="name" name="nome" placeholder="Ex: João da Silva"><br>
             <label for="num">Num:</label><br>
@@ -30,6 +30,7 @@
             <input type="text" name="pix" id="pix" placeholder="Ex: 12345"><br>
             <input class="butao" type="submit" value="Submit"></button>
         </form>
+        <button class="butao" id="getClientes">Clique aqui para mostrar os clientes</button>
         <a href="index.html" class="link_bt" id="menu_ini">Menu inicial</a>
     </main>
     <footer>Site criado por <strong>Heldão Lima</strong></footer>
